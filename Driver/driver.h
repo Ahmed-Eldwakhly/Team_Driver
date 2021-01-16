@@ -21,16 +21,12 @@
 #define I_AN	0
 #define I_F		1
 #define I_PP	2
-#define I_res	3//----
+#define I_res	3
 
 #define O_GP_PP		0
 #define O_GP_OD		1
 #define O_AF_PP		2
 #define O_AF_OD		3
-
-
-
-
 
 
 void INIT_GPIO(unsigned short port, unsigned short pin, unsigned short dir, unsigned short config);
